@@ -1,0 +1,21 @@
+/* CSS Document */
+[href*="google"]{
+	color:green;
+}
+[href*="link"]{
+	color:red;
+}
+#second-div p:nth-child(odd) {
+	color:blue;
+}
+#second-div p:nth-child(even){
+	color:red;
+}
+#first-div > p::after {
+	content:" - new";
+	text-transform: uppercase;
+	color: goldenrod;
+}
+body > p:last-of-type:hover {
+	font-style: italic; 
+}
